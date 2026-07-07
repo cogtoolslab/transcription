@@ -17,7 +17,7 @@ and set up a conda environment using the requirements file by running:
 conda env create -f /data/models/transciption/basic-huggingface-environment.yml
 ```
 
-Then, to use the already downloaded model weights set your hugging face home environment variable by running:
+Then, to use the already downloaded model weights, set your hugging face home environment variable by running:
 
 ```
 export HF_HOME="/data/models/.cache/huggingface
@@ -28,7 +28,7 @@ Make sure you are inside your huggingface conda environment (activate with ``con
 
 To transcribe a list of audio files, run ``python3 transcribe.py [audio_file ...] [--output_dir]`` 
 
-where the first argument(s) are one or more paths to audio files,
+The first argument(s) are one or more paths to audio files,
 and the second optional argument is preceded by the flag ``-o`` or ``--output_dir`` and is a path to a directory where
 the jsons will be written.
 
