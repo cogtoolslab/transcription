@@ -1,4 +1,6 @@
 # Whisper transcription script
+I live on the cogtoolslab CCN node in ``/data/models/transcription``!
+
 This python script transcribes audio in any format to a json file. The output is timestamped by word and looks like:
 
 ```
