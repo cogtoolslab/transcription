@@ -10,7 +10,7 @@ in_files = args.audio_file
 out_path = args.output_dir if args.output_dir is not None else ""
 
 print("Reading audio from "+str(in_files) + 
-        (" and outputting "+"here" if out_path == "" else "to "+out_path))
+        (" and outputting "+"here" if out_path == "" else " to "+out_path))
 
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"

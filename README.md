@@ -3,8 +3,8 @@ This python script transcribes audio in any format to a json file. The output is
 
 ```
 [
-    {"text": "Hello", "timestamp": (0.0, 1.3)},
-    {"text": "world", "timestamp": (1.4, 2.2)}
+    {"text": "Hello", "timestamp": [0.0, 0.48]},
+    {"text": " world", "timestamp": [0.51, 1.02]}
 ]
 ```
 It uses the whisper-large-v3-turbo model by openai, provided by Huggingface (at: [https://huggingface.co/openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo))
