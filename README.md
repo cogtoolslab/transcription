@@ -31,8 +31,8 @@ Make sure you are inside your huggingface conda environment (activate with ``con
 To transcribe a list of audio files, run ``python3 transcribe.py [audio_file ...] [--output_dir]`` 
 
 The first argument(s) are one or more paths to audio files,
-and the second optional argument is preceded by the flag ``-o`` or ``--output_dir`` and is a path to a directory where
-the jsons will be written.
+and the second optional argument is preceded by the flag ``-o`` or ``--output_dir`` is a path to a directory where
+the jsons will be written (they will otherwise be written in /data/models/transcription)
 
 For example,
 
